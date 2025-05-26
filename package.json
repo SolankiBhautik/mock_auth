@@ -1,7 +1,7 @@
 {
     "scripts": {
       "dev": "node server.js",
-      "build": "node server.js",
+      "build": "echo 'No build step needed'",
       "start": "node server.js"
     },
   "dependencies": {
