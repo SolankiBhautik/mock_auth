@@ -3,7 +3,6 @@ const cors = require('cors');
 const jwt = require('jsonwebtoken');
 const app = express();
 
-
 const JWT_SECRET = 'sum_secret_key_from_env_but_right_now_i_doo_not_care';
 
 app.use(express.json());
