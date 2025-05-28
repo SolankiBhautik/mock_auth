@@ -4,42 +4,42 @@
       "id": 1,
       "title": "Sacred Meditation Series",
       "description": "A comprehensive meditation program combining ancient tantric practices with modern mindfulness techniques.",
-      "image": "/images/meditation.jpg",
+      "image": "https://cdn.dribbble.com/userupload/37446677/file/original-ac66a15496fee4eecbf31795b509cf22.png?resize=1024x768&vertical=center",
       "link": "/projects/meditation-series"
     },
     {
       "id": 2,
       "title": "Shakti Empowerment Workshop",
       "description": "Interactive workshops focused on harnessing divine feminine energy for personal and professional growth.",
-      "image": "/images/workshop.jpg",
+      "image": "https://cdn.dribbble.com/userupload/33278478/file/original-bd9cc77ab4c107526c413b642fb8a2b3.png?resize=1024x768&vertical=center",
       "link": "/projects/empowerment-workshop"
     },
     {
       "id": 3,
       "title": "Tantric Philosophy Course",
       "description": "In-depth exploration of tantric philosophy and its application in contemporary life.",
-      "image": "/images/philosophy.jpg",
+      "image": "https://cdn.dribbble.com/userupload/18860879/file/original-3b2d6f74930864997221c53bdd6ccdb2.png?resize=1024x768&vertical=center",
       "link": "/projects/philosophy-course"
     },
     {
       "id": 4,
       "title": "Healing Retreats",
       "description": "Transformative retreats combining traditional healing practices with modern wellness approaches.",
-      "image": "/images/retreat.jpg",
+      "image": "https://cdn.dribbble.com/userupload/36544514/file/original-0400ac4de0d75fbc169e1f69e126bd81.png?resize=1024x768&vertical=center",
       "link": "/projects/healing-retreats"
     },
     {
       "id": 5,
       "title": "Community Gatherings",
       "description": "Regular community events fostering connection and spiritual growth through shared practice.",
-      "image": "/images/community.jpg",
+      "image": "https://cdn.dribbble.com/userupload/16723391/file/original-c6ab2980b25d82c047b5c3e22b99bf23.png?resize=1024x768&vertical=center",
       "link": "/projects/community-gatherings"
     },
     {
       "id": 6,
       "title": "Online Learning Platform",
       "description": "Digital platform offering courses and resources for self-paced spiritual development.",
-      "image": "/images/online.jpg",
+      "image": "https://cdn.dribbble.com/userupload/16660992/file/original-3fc18316df8471aaceca7b4be1e6f31c.png?format=webp&resize=320x240&vertical=center",
       "link": "/projects/online-platform"
     }
   ]
