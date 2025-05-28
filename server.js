@@ -1,6 +1,8 @@
 const express = require('express');
 const cors = require('cors');
 const jwt = require('jsonwebtoken');
+const fs = require('fs');
+const path = require('path');
 const app = express();
 
 const JWT_SECRET = 'sum_secret_key_from_env_but_right_now_i_doo_not_care';
@@ -14,7 +16,7 @@ app.use(cors({
 const mockUser = {
     id: 1,
     email: 'jane.doe@example.com',
-    password: 'password123',
+    password: 'password123', 
     name: 'Jane Doe',
     avatarUrl: 'https://i.pravatar.cc/150?img=57'
 };
@@ -62,9 +64,28 @@ app.get('/api/profile', authenticateToken, (req, res) => {
 });
 
 
+// Read projects data
+const projectsData = JSON.parse(
+  fs.readFileSync(path.join(__dirname, 'data', 'projects.json'), 'utf8')
+);
+
+// API Routes
+app.get('/api/projects', authenticateToken, (req, res) => {
+  res.json(projectsData.projects);
+});
+
+// API Routes
+app.get('/api/projects/:id', authenticateToken, (req, res) => {
+  const project = projectsData.projects.find(p => p.id === parseInt(req.params.id));
+  if (!project) return res.status(404).json({ error: 'Project not found' });
+  res.json(project);
+});
+
+
 app.get("/", (req, res) => {
     res.send("Hello World");
 })
 
-// Export for Vercel
+
+// Export for Vercel 
 module.exports = app;
